@@ -16,10 +16,11 @@ DEPEND="
 	dev-qt/qtbase:6[widgets]
 	>=media-video/obs-studio-29
 	>=media-libs/opencv-4.7.0:=
+	sci-libs/onnxruntime
+	dev-libs/rocm-opencl-runtime
 	"
 
 RDEPEND="${DEPEND}"
-
 
 src_install() {
 	cmake_src_install

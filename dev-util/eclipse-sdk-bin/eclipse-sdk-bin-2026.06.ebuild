@@ -18,7 +18,7 @@ SRC_URI="
 	"
 
 LICENSE="EPL-1.0"
-SLOT="$(ver_cut 1-2)"
+SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="lombok"
 
